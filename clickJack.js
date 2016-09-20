@@ -4,10 +4,10 @@
 var page_ = encodeURIComponent("https://www.facebook.com/DIY-Latino-1772965009583630/");
 
 //Set the opacity of the like button. Set this to 0 when going live
-var Opacity = 100;
+var Opacity = 200;
 
 //Whether to use a pointer cursor or the default cursor
-var use_pointer = true;
+var use_pointer = false;
 
 
 
