@@ -7,7 +7,7 @@ var page_ = encodeURIComponent("https://www.facebook.com/DIY-Latino-177296500958
 var Opacity = 100;
 
 //Whether to use a pointer cursor or the default cursor
-var use_pointer = pointer;
+var use_pointer = "pointer";
 
 
 
